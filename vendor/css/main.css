@@ -5,3 +5,26 @@
 .navbar-dark .navbar-brand {
   color: #ffffff;
 }
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: -0.5rem;
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.container .Portfolio-heading {
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 1rem;
+  }
+}
